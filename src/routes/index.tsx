@@ -1,25 +1,15 @@
-import { createFileRoute, useNavigate } from '@tanstack/react-router'
-import { useState } from 'react'
-import { IntroScreen } from '@/components/intro/IntroScreen'
-import { LoginPage } from '@/components/auth/LoginPage'
+import { createFileRoute } from '@tanstack/react-router'
+import { DashboardShell } from '@/components/layout/DashboardShell'
+import { DashboardOverview } from '@/components/dashboard/DashboardOverview'
 
 export const Route = createFileRoute('/')({
-  component: EntryFlow,
+  component: DashboardPage,
 })
 
-type Stage = 'intro' | 'login'
-
-function EntryFlow() {
-  const [stage, setStage] = useState<Stage>('intro')
-  const navigate = useNavigate()
-
+function DashboardPage() {
   return (
-    <div key={stage} className="animate-page-in">
-      {stage === 'intro' ? (
-        <IntroScreen onContinue={() => setStage('login')} />
-      ) : (
-        <LoginPage onBack={() => setStage('intro')} onSuccess={() => navigate({ to: '/dashboard' })} />
-      )}
-    </div>
+    <DashboardShell>
+      <DashboardOverview />
+    </DashboardShell>
   )
 }

@@ -1,0 +1,1 @@
+function r(t){const n=t<0?"-":"",e=Math.round(Math.abs(t));return n+"₹"+e.toLocaleString("en-IN")}function o(t){const n=Math.abs(t),e=t<0?"-":"";return n>=1e5?`${e}₹${(n/1e5).toFixed(2)}L`:n>=1e3?`${e}₹${(n/1e3).toFixed(1)}K`:r(t)}export{o as a,r as f};

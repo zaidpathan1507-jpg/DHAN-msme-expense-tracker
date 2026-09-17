@@ -1,0 +1,51 @@
+import { j as jsxRuntimeExports } from "../_libs/react.mjs";
+import { D as DashboardShell } from "./DashboardShell-DroH9zDJ.mjs";
+import { D as DashboardOverview } from "./DashboardOverview-PUC6EyEZ.mjs";
+import "./router-CetSUMdE.mjs";
+import "../_libs/react-dom.mjs";
+import "../_libs/tanstack__react-router.mjs";
+import "../_libs/tanstack__router-core.mjs";
+import "../_libs/cookie-es.mjs";
+import "../_libs/seroval.mjs";
+import "../_libs/seroval-plugins.mjs";
+import "../_libs/tanstack__history.mjs";
+import "node:stream/web";
+import "node:stream";
+import "../_libs/isbot.mjs";
+import "../_libs/lucide-react.mjs";
+import "./format-X1RxzObn.mjs";
+import "../_libs/recharts.mjs";
+import "../_libs/clsx.mjs";
+import "../_libs/d3-shape.mjs";
+import "../_libs/d3-path.mjs";
+import "../_libs/reselect.mjs";
+import "../_libs/es-toolkit.mjs";
+import "../_libs/react-is.mjs";
+import "../_libs/tiny-invariant.mjs";
+import "../_libs/reduxjs__toolkit.mjs";
+import "../_libs/redux.mjs";
+import "../_libs/immer.mjs";
+import "../_libs/redux-thunk.mjs";
+import "../_libs/react-redux.mjs";
+import "../_libs/use-sync-external-store.mjs";
+import "../_libs/victory-vendor.mjs";
+import "../_libs/d3-scale.mjs";
+import "../_libs/internmap.mjs";
+import "../_libs/d3-array.mjs";
+import "../_libs/d3-time-format.mjs";
+import "../_libs/d3-time.mjs";
+import "../_libs/d3-interpolate.mjs";
+import "../_libs/d3-color.mjs";
+import "../_libs/d3-format.mjs";
+import "../_libs/decimal.js-light.mjs";
+import "../_libs/eventemitter3.mjs";
+import "util";
+import "crypto";
+import "async_hooks";
+import "stream";
+function DashboardPage() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(DashboardShell, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(DashboardOverview, {}) });
+}
+export {
+  DashboardPage as component
+};
