@@ -1,0 +1,2 @@
+minimumReleaseAgeExclude:
+  - typed-array-byte-offset@1.0.5
